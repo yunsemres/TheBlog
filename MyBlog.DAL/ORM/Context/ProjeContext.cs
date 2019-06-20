@@ -13,7 +13,7 @@ namespace MyBlog.DAL.ORM.Context
     {
         public ProjeContext()
         {
-               Database.Connection.ConnectionString= "Server=DESKTOP-1KMD7N2;Database=MyBlog;uid=admin2;pwd=alp123;";
+               Database.Connection.ConnectionString= "Server=DESKTOP-***;Database=MyBlog;uid=***;pwd=***;";
         }
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Category>Categories { get; set; }
